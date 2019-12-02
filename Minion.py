@@ -13,6 +13,7 @@ class Minion(Card):
         self.damage = damage
         self.life = life
     
+    #override method-ish
     def printMinionInfo(self):
         print('The card cost: ' + str(self.cost))
         print('The card name: ' + self.name)
